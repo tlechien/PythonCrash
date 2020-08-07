@@ -3,8 +3,7 @@ if __name__ == '__main__':
 
     users = []
 
-    if users:
-        for user in users:
-            print("Hello God." if user == "admin" else "Hello %s."%user)
-    else:
+    for user in users:
+        print("Hello God." if user == "admin" else "Hello %s."%user)
+    if not users:
         print("We need to find some users!")
