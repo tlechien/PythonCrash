@@ -15,9 +15,11 @@ the person is an adult.
 elder.
 """
 if __name__ == '__main__':
-    age = None
-    while type(age) != int:
-        age = int(input("How old are you"))
+    age = ""
+    while not age.isdigit():
+        age = input("How old are you? ")
+
+    age = int(age)
 
     if age < 2:
         print("You're a baby.")
