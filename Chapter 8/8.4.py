@@ -6,7 +6,7 @@ message.
 """
 if __name__ == '__main__':
     def make_shirt(size="large", txt="I love Python"):
-        print("Shirt size {} with \"{}\" printed on it.".format(size, txt))
+        print(f"Shirt size {size} with \"{txt}\" printed on it.")
     make_shirt("M", "Hello World")
     make_shirt(46, "ACDC")
     make_shirt()

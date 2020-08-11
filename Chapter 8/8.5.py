@@ -7,6 +7,6 @@ default country.
 """
 if __name__ == '__main__':
     def describe_city(name, country="Za Warudo"):
-        print("{} is in {}.".format(name, country))
+        print(f"{name} is in {country}.")
     describe_city("Paris")
     describe_city("Paris", "France")

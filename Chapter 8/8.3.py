@@ -7,6 +7,6 @@ function a second time using keyword arguments
 """
 if __name__ == '__main__':
     def make_shirt(size, txt):
-        print("Shirt size {} with \"{}\" printed on it.".format(size, txt))
+        print(f"Shirt size {size} with \"{txt}\" printed on it.")
     make_shirt("M", "Hello World")
     make_shirt(46, "ACDC")

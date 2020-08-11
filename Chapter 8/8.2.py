@@ -6,6 +6,6 @@ include a book title as an argument in the function call.
 """
 if __name__ == '__main__':
     def favorite_book(title):
-        print("One of my favorite books is %s." % title)
+        print(f"One of my favorite books is {title}.")
     favorite_book("Alice in Wonderland")
     favorite_book("Monogatari serie")
