@@ -12,7 +12,6 @@ if __name__ == '__main__':
 
     while sandwich_orders:
         print("I made your {}".format(sandwich_orders[0]))
-        finished_sandwiches.append(sandwich_orders[0])
-        sandwich_orders.pop(0)
+        finished_sandwiches.append(sandwich_orders.pop(0))
 
     print(*finished_sandwiches)

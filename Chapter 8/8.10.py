@@ -15,8 +15,7 @@ if __name__ == '__main__':
         sent = []
         while msgs:
             print(msgs[0])
-            sent.append(msgs[0])
-            msgs.pop(0)
+            sent.append(msgs.pop(0))
         return sent
 
     print("initial list:")
