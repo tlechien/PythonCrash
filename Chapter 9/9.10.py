@@ -5,7 +5,7 @@ and call one of Restaurant’s methods to show that the import statement is work
 properly.
 """
 
-from restaurant import *
+from src import Restaurant
 
 if __name__ == '__main__':
     r1 = Restaurant("Leonidas", "Greek")
